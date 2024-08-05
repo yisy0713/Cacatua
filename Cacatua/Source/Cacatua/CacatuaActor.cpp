@@ -2,6 +2,7 @@
 
 
 #include "CacatuaActor.h"
+#include "CacatuaObject.h"
 
 // Sets default values
 ACacatuaActor::ACacatuaActor()
@@ -15,7 +16,8 @@ ACacatuaActor::ACacatuaActor()
 void ACacatuaActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	UCacatuaObject* Obj = NewObject<UCacatuaObject>();
 }
 
 // Called every frame

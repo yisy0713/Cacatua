@@ -12,6 +12,15 @@
 				"Engine",
 				"CoreUObject"
 			]
+		},
+		{
+			"Name": "CacatuaEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject"
+			]
 		}
 	],
 	"Plugins": [

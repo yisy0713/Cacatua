@@ -15,5 +15,4 @@ class CACATUA_API UCacatuaObject : public UObject
 	GENERATED_BODY()
 	
 };
-+
-+
+
